@@ -35,5 +35,9 @@ jobs:
             registry-username: ${{ secrets.REGISTRY_USERNAME }}
             registry-password: ${{ secrets.REGISTRY_PASSWORD }}
             name: getting-started-github
+            azure-file-volume-account-key: Ipk71yZTfqGEgRgK/vI1gO2Hmx6EcvgSOGOKcD3LHhYoso3m4xkCrDzqJCingFltSmUXDRWJPOJ0+AStHTRCAQ==
+            azure-file-volume-account-name: tutacrstorage
+            azure-file-volume-mount-path: /etc/todos/
+            azure-file-volume-share-name: tutacrfileshare
             location: 'west europe'
             ports: '3000'
